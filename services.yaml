@@ -1,0 +1,6 @@
+services:
+  - name: portfolio-web
+    image: gchr.io/thearun85/portfolio-web:latest
+    domain: arunraghunath.io
+    port: 3000
+    health: /health
